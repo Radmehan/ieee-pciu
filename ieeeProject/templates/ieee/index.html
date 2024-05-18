@@ -1,0 +1,146 @@
+{% extends 'ieee/base.html' %}
+{% block title %} Home {% endblock %}
+{% load static %}
+{% block css %}
+
+section.hero {
+    background-image:linear-gradient(#00000075, #00000075),
+      linear-gradient(#00000075, #00000075),
+      url('{% static "ieee/img/web/8.jpeg" %}');
+  }
+
+{% endblock %}
+
+{% block body %}
+<!-- ======= Hero Section ======= -->
+
+<section class="hero" id="hero" data-aos="fade-in" data-aos-delay="100">
+    <!-- Navbar & Header -->
+    <header id="header" class="header" data-aos="fade-in" data-aos-delay="100">
+        {% include 'ieee/sensitive/navBar.html' %}
+    </header>
+    <!-- End Navbar & Header -->
+    <div class="container" data-aos="fade-in" data-aos-delay="100">
+        <div class="hero-content">
+            <h2>Welcome to PCIU<span>IEEE</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eius iusto non ea consectetur harum. Voluptatem perferendis incidunt esse sapiente!</p>
+        </div>
+    </div>
+</section>
+
+<!-- =======End Hero Section ======= -->
+
+<!-- ======= About Section ======= -->
+
+<section class="about" id="about">
+    <div class="container" >
+        <div class="section-header" data-aos="fade-up" data-aos-delay="100">
+            <h2>About <span>Us</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis nam cupiditate asperiores quas dolore est mollitia quos nobis cum?</p>
+        </div>
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit ipsam impedit laudantium nostrum? Distinctio porro autem sunt laboriosam quisquam deserunt dolores id temporibus, nulla quam suscipit aliquid unde incidunt perspiciatis aut possimus voluptatibus esse nisi ipsa earum quod animi? Sed, unde obcaecati vero eligendi aliquam beatae porro libero nihil similique tempora, temporibus ratione autem esse illo. Similique reiciendis numquam, quidem officiis exercitationem magni illum dolor, nam labore necessitatibus at?</p>
+            </div>
+            <div class="image">
+                <img src="{% static 'ieee/img/web/2.jpg' %}" alt="">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =======End Hero Section ======= -->
+
+<!-- ======= Service Section ======= -->
+
+<section id="services" class="services">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up" data-aos-delay="100">
+        <h2>Our <span>Services</span></h2>
+        <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+      </div>
+
+      <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item  position-relative">
+            <div class="icon">
+              <i class="bi bi-activity"></i>
+            </div>
+            <h3>Nesciunt <span>Mete</span></h3>
+            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-broadcast"></i>
+            </div>
+            <h3>Eosle <span>Commodi</span></h3>
+            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-easel"></i>
+            </div>
+            <h3>Ledo <span>Markt</span></h3>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-bounding-box-circles"></i>
+            </div>
+            <h3>Asperiores <span>Commodit</span></h3>
+            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-calendar4-week"></i>
+            </div>
+            <h3>Velit <span>Doloremque</span></h3>
+            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-chat-square-text"></i>
+            </div>
+            <h3>Dolori <span>Architecto</span></h3>
+            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- ======= End Service Section ======= -->
+
+
+{% endblock %}
+
+{% block js %}
+<script>
+</script>
+{% endblock %}
