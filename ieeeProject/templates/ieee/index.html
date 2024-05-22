@@ -4,138 +4,158 @@
 {% block css %}
 
 section.hero {
-    background-image:linear-gradient(#00000075, #00000075),
-      linear-gradient(#00000075, #00000075),
-      url('{% static "ieee/img/web/8.jpeg" %}');
-  }
+background-image:linear-gradient(#00000075, #00000075),
+linear-gradient(#00000075, #00000075),
+url('{% static "ieee/img/web/8.jpeg" %}');
+}
+
+section.event {
+background-image: linear-gradient(#040a1b, #040a1b21),
+linear-gradient(#040a1b00, #040a1b00),
+url(/static/ieee/img/web/4.jpeg);
+}
 
 {% endblock %}
 
 {% block body %}
 <!-- ======= Hero Section ======= -->
 <section class="hero" id="hero" data-aos="fade-in" data-aos-delay="100">
-    <!-- Navbar & Header -->
-    <header id="header" class="header" data-aos="fade-in" data-aos-delay="100">
-        {% include 'ieee/sensitive/navBar.html' %}
-    </header>
-    <!-- End Navbar & Header -->
-    <div class="container" data-aos="fade-in" data-aos-delay="100">
-        <div class="hero-content">
-            <h2>Welcome to PCIU<span>IEEE</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eius iusto non ea consectetur harum. Voluptatem perferendis incidunt esse sapiente!</p>
-        </div>
+  <!-- Navbar & Header -->
+  <header id="header" class="header" data-aos="fade-in" data-aos-delay="100">
+    {% include 'ieee/sensitive/navBar.html' %}
+  </header>
+  <!-- End Navbar & Header -->
+  <div class="container" data-aos="fade-in" data-aos-delay="100">
+    <div class="hero-content">
+      <h2>Welcome to PCIU<span>IEEE</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eius iusto non ea consectetur harum.
+        Voluptatem perferendis incidunt esse sapiente!</p>
     </div>
+  </div>
 </section>
 <!-- =======End Hero Section ======= -->
 
 <!-- ======= About Section ======= -->
 <section class="about" id="about">
-    <div class="container" >
-        <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-            <h2>About <span>Us</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis nam cupiditate asperiores quas dolore est mollitia quos nobis cum?</p>
-        </div>
-        <div class="content" data-aos="fade-up" data-aos-delay="100">
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit ipsam impedit laudantium nostrum? Distinctio porro autem sunt laboriosam quisquam deserunt dolores id temporibus, nulla quam suscipit aliquid unde incidunt perspiciatis aut possimus voluptatibus esse nisi ipsa earum quod animi? Sed, unde obcaecati vero eligendi aliquam beatae porro libero nihil similique tempora, temporibus ratione autem esse illo. Similique reiciendis numquam, quidem officiis exercitationem magni illum dolor, nam labore necessitatibus at?</p>
-            </div>
-            <div class="image">
-                <img src="{% static 'ieee/img/web/2.jpg' %}" alt="">
-
-            </div>
-        </div>
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>About <span>Us</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis nam cupiditate asperiores quas dolore
+        est mollitia quos nobis cum?</p>
     </div>
+    <div class="content" data-aos="fade-up" data-aos-delay="100">
+      <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit ipsam impedit laudantium nostrum?
+          Distinctio porro autem sunt laboriosam quisquam deserunt dolores id temporibus, nulla quam suscipit aliquid
+          unde incidunt perspiciatis aut possimus voluptatibus esse nisi ipsa earum quod animi? Sed, unde obcaecati vero
+          eligendi aliquam beatae porro libero nihil similique tempora, temporibus ratione autem esse illo. Similique
+          reiciendis numquam, quidem officiis exercitationem magni illum dolor, nam labore necessitatibus at?</p>
+      </div>
+      <div class="image">
+        <img src="{% static 'ieee/img/web/2.jpg' %}" alt="">
+
+      </div>
+    </div>
+  </div>
 </section>
 <!-- =======End Hero Section ======= -->
 
 <!-- ======= Service Section ======= -->
 <section id="services" class="services">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-        <h2>Our <span>Services</span></h2>
-        <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-      </div>
-      <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Our <span>Services</span></h2>
+      <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
+        omnis tiledo stran delop</p>
+    </div>
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item  position-relative">
-            <div class="icon">
-              <i class="bi bi-activity"></i>
-            </div>
-            <h3>Nesciunt <span>Mete</span></h3>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item  position-relative">
+          <div class="icon">
+            <i class="bi bi-activity"></i>
           </div>
-        </div><!-- End Service Item -->
+          <h3>Nesciunt <span>Mete</span></h3>
+          <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+            tempore et consequatur.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-broadcast"></i>
-            </div>
-            <h3>Eosle <span>Commodi</span></h3>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-broadcast"></i>
           </div>
-        </div><!-- End Service Item -->
+          <h3>Eosle <span>Commodi</span></h3>
+          <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
+            nesciunt dolorem.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-easel"></i>
-            </div>
-            <h3>Ledo <span>Markt</span></h3>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-easel"></i>
           </div>
-        </div><!-- End Service Item -->
+          <h3>Ledo <span>Markt</span></h3>
+          <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos
+            earum corrupti.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-bounding-box-circles"></i>
-            </div>
-            <h3>Asperiores <span>Commodit</span></h3>
-            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-bounding-box-circles"></i>
           </div>
-        </div><!-- End Service Item -->
+          <h3>Asperiores <span>Commodit</span></h3>
+          <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
+            adipisci neque.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-calendar4-week"></i>
-            </div>
-            <h3>Velit <span>Doloremque</span></h3>
-            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-calendar4-week"></i>
           </div>
-        </div><!-- End Service Item -->
+          <h3>Velit <span>Doloremque</span></h3>
+          <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
+            alias eius labore.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-chat-square-text"></i>
-            </div>
-            <h3>Dolori <span>Architecto</span></h3>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-chat-square-text"></i>
           </div>
-        </div><!-- End Service Item -->
-
-      </div>
+          <h3>Dolori <span>Architecto</span></h3>
+          <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
+            ducimus enim.</p>
+          <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+        </div>
+      </div><!-- End Service Item -->
 
     </div>
-  </section>
+
+  </div>
+</section>
 <!-- ======= End Service Section ======= -->
 
 <!-- ======= Team Section ======= -->
-<section class="teams" id="teams"  data-aos="fade-up" data-aos-delay="100">
+<section class="teams" id="teams" data-aos="fade-up" data-aos-delay="100">
   <div class="section-header">
     <h2>Our <span>Teams</span></h2>
-    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis
+      tiledo stran delop</p>
   </div>
-  
+
   <div class="container-fluid">
     <div class="slider">
       <div class="slide-track">
@@ -310,7 +330,7 @@ section.hero {
 
 
       </div>
-    </div>  
+    </div>
   </div>
 
   <div class="container mt-3 text-center"><a class="get-btn" href="">Explore Team</a></div>
@@ -320,95 +340,439 @@ section.hero {
 
 <!-- ======= portfolio Section ======= -->
 <section class="portfolio" id="portfolio">
-  <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-    <h2><span>Portfolio</span></h2>
-    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-  </div>
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="swiper portfolio-slider">
-      <div class="swiper-wrapper">
-
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-        <!-- slide start -->
-        <div class="swiper-slide portfolio-slide">
-          <div class="portfolio-slide-img">
-            <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
-          </div>
-        </div>
-        <!-- slide end -->
-
-      </div>
-
-      <div class="portfolio-slide-control">
-
-        <div class="swiper-button-prev slider-arrow">
-          <ion-icon name="arrow-back-outline"></ion-icon>
-        </div>
-        <div class="swiper-button-next slider-arrow">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </div>
-        <div class="swiper-pagination"></div>
-
-      </div>
-
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2><span>Events</span></h2>
+      <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
+        omnis tiledo stran delop</p>
     </div>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper portfolio-slider">
+        <div class="swiper-wrapper">
+
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+          <!-- slide start -->
+          <div class="swiper-slide portfolio-slide">
+            <div class="portfolio-slide-img">
+              <img src="{% static 'ieee/img/web/2.jpg' %}" height="100" width="100" alt="" />
+            </div>
+            <div class="para">
+              <p>Lorem ipsum dolor sit, <time datetime="2022-01-01">2 Jan,2024</time></p>
+            </div>
+          </div>
+          <!-- slide end -->
+
+        </div>
+
+        <div class="portfolio-slide-control">
+
+          <div class="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container mt-3 text-center"><a class="get-btn" href="">View All</a></div>
   </div>
-  <div class="container mt-3 text-center"><a class="get-btn" href="">View All Projects</a></div>
 </section>
 <!-- ======= End Portfolio Section ======= -->
+
+<!-- ======= Event Section ======= -->
+<section class="event" id="event" data-aos="fade-up" data-aos-delay="100">
+  <div class="container content">
+
+    <div class="announce">
+      <div class="row">
+        <div class="col-md-8 chart">
+          <thead>
+            <h4 class="title text-center">We are going to arrange a workshop</h4>
+          </thead>
+          </th>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Name</th>
+                <td><strong>:</strong></td>
+                <td>Workshop</td>
+              </tr>
+              <tr>
+                <th scope="row">Day</th>
+                <td><strong>:</strong></td>
+                <td>Tuesday</td>
+              </tr>
+              <tr>
+                <th scope="row">Location</th>
+                <td><strong>:</strong></td>
+                <td colspan="2">PCIU campus</td>
+              </tr>
+              <tr>
+                <th scope="row">Date</th>
+                <td><strong>:</strong></td>
+                <td colspan="2"><time datetime="2022-01-01">2 Jan,2024</time></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <th colspan="3" class=" text-center">
+                <a type="button" href="#" class="get-btn mt-3" data-bs-toggle="" data-bs-target="">Please Login Or
+                  Register To Join Us</a>
+              </th>
+            </tfoot>
+          </table>
+        </div>
+        <!-- <div class="col-md-6 text-center">
+          <h2 style="color:red">No event available</h2>
+        </div> -->
+
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+<!-- ======= End Event Section ======= -->
+
+<!-- ======= Publications Section ======= -->
+<section class="publications" id="publications">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2><span>Publication</span></h2>
+      <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
+        omnis
+        tiledo stran delop</p>
+    </div>
+
+    <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="publication-wrap">
+            <div class="publication-item">
+              <div class="title">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat.</h3>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="{% static 'ieee/img/publications/1.jpg' %}" class="publication-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Saul Goodman</h3>
+                  <h4><time datetime="2022-01-01">2 Jan,2024</time></h4>
+                </div>
+              </div>
+              <h5>category</h5>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End publication item -->
+
+
+        <div class="swiper-slide">
+          <div class="publication-wrap">
+            <div class="publication-item">
+              <div class="title">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat.</h3>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="{% static 'ieee/img/publications/2.jpg' %}" class="publication-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Saul Goodman</h3>
+                  <h4><time datetime="2022-01-01">2 Jan,2024</time></h4>
+                </div>
+              </div>
+              <h5>category</h5>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End publication item -->
+
+        <div class="swiper-slide">
+          <div class="publication-wrap">
+            <div class="publication-item">
+              <div class="title">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat.</h3>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="{% static 'ieee/img/publications/3.jpg' %}" class="publication-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Saul Goodman</h3>
+                  <h4><time datetime="2022-01-01">2 Jan,2024</time></h4>
+                </div>
+              </div>
+              <h5>category</h5>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End publication item -->
+
+        <div class="swiper-slide">
+          <div class="publication-wrap">
+            <div class="publication-item">
+              <div class="title">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat.</h3>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="{% static 'ieee/img/publications/4.jpg' %}" class="publication-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Saul Goodman</h3>
+                  <h4><time datetime="2022-01-01">2 Jan,2024</time></h4>
+                </div>
+              </div>
+              <h5>category</h5>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End publication item -->
+
+        <div class="swiper-slide">
+          <div class="publication-wrap">
+            <div class="publication-item">
+              <div class="title">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat.</h3>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="{% static 'ieee/img/publications/5.jpg' %}" class="publication-img flex-shrink-0" alt="">
+                <div>
+                  <h3>Saul Goodman</h3>
+                  <h4><time datetime="2022-01-01">2 Jan,2024</time></h4>
+                </div>
+              </div>
+              <h5>category</h5>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End publication item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section>
+<!-- ======= End Publication Section ======= -->
+
+<!-- ======= Gallery Section ======= -->
+<section class="gallery" id="gallery">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2><span>Gallery</span></h2>
+      <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
+        omnis
+        tiledo stran delop</p>
+    </div>
+
+    <!-- Gallery -->
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Boat on Calm Water" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Wintry Mountain Landscape" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Mountains in the Clouds" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Boat on Calm Water" />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Waves at Sea" />
+
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+          class="w-100 shadow-1-strong rounded mb-4 glightbox" alt="Yosemite National Park" />
+      </div>
+    </div>
+    <!-- Gallery -->
+
+    <div class="container mt-3 text-center"><a class="get-btn" href="">View Album</a></div>
+
+  </div>
+</section>
+<!-- =======End Gallery Section ======= -->
+
+<!-- ======= Contact Section ======= -->
+<section class="contact" id="contact">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Get In <span>Touch</span></h2>
+      <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
+        omnis
+        tiledo stran delop</p>
+    </div>
+    <div class="row info">
+      <div class="col-md-4 col-sm-4 col-lg-4">
+        <div class="details">
+
+          <div class="location">
+            <div class="icon">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+            </div>
+            <div class="address">
+              <h3>Address</h3>
+              <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+            </div>
+          </div>
+
+          <div class="talk location">
+            <div class="icon">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="phone address">
+              <h3>Lets Talk</h3>
+              <p>+880 1814......</p>
+            </div>
+          </div>
+
+          <div class="support location">
+            <div class="icon">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+            </div>
+            <div class="email address">
+              <h3>General Support</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-8 ">
+        <form action="/" method="post" role="form" class="email-form">{% csrf_token %}
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            
+          </div>
+          <div class="text-center mt-3"><button type="submit" class="get-btn">Send Message</button></div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ======= End Contact Section ======= -->
 
 {% endblock %}
 
 {% block js %}
 <script>
-  
+
 </script>
 {% endblock %}

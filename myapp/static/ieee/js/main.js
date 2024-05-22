@@ -36,26 +36,66 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // swiper slider
-    let portfolioSlider = new Swiper('.portfolio-slider',{
-        effect : 'coverflow',
-        grabCursor : true,
-        centeredSlides : true,
-        loop : true,
-        slidesPerView : 'auto',
+    let portfolioSlider = new Swiper('.portfolio-slider', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: 'auto',
         coverflowEffect: {
-            rotate : 0,
-            stretch : 0,
-            depth : 100,
-            modifier : 2.5,
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
         },
-        pagination : {
-            el : '.swiper-pagination',
-            clickable : true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
         },
-        navigation : {
-            nextEl : '.swiper-button-next',
-            prevEl : '.swiper-button-prev',
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         }
+    });
+
+    // publications
+    /**
+   * Init swiper slider with 3 slides at once in desktop view
+   */
+    new Swiper('.slides-3', {
+        speed: 600,
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 40
+            },
+
+            1200: {
+                slidesPerView: 3,
+            }
+        }
+    });
+
+    /**
+   * Initiate glightbox
+   */
+    const glightbox = GLightbox({
+        selector: '.glightbox'
     });
 
     /**
